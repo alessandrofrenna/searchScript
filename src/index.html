@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search</title>
+  <script src="search.js"></script>
+</head>
+
+<body>
+  <h1>Search</h1>
+
+  <form class='search' method='get' action=''>
+    <input type='text' name='q' placeholder= 'Cerca'>
+    <button type='submit'>Submit</button>
+  </form>
+
+  <script>
+  /*
+   * Creo l'oggetto con le URL per la ricerca
+   * di una query immessa dall'utente nel campo
+   * input.
+   */
+    new SearchEngine({
+      google: 'https://google.com/search?q=',
+
+      yahoo: 'https://search.yahoo.com/search?q=',
+
+      bing: 'https://www.bing.com/search?q=',
+
+      wikipedia: 'https://it.wikipedia.org/w/index.php?search=',
+
+      'forumfree/forum': 'http://www.forumfree.it/?act=cerca&select=forum%20o%20blog&keyword=',
+
+      'forumfree/wiki': 'http://www.forumfree.it/?wiki=',
+
+      'forumfree/utente': 'http://www.forumfree.it/?act=cerca&select=utente&keyword='
+    })
+  </script>
+
+</body>
+</html>
