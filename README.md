@@ -23,10 +23,9 @@ Inserici questo codice all'interno di un tag ```<script></script> ``` o, all'int
     })
 ```
 
-### Nota bene, l'oggetto passato come parametro può essere anche vuoto.
+#### Nota bene, l'oggetto passato come parametro può essere anche vuoto.
 
-## Ricorda di inserire un ```<form></form> ``` con all'interno un ```<select></select> ``` ed un ```<input></input> ``` 
-per la query.
+### Ricorda di inserire un ```<form></form> ``` con all'interno un ```<select></select> ``` ed un ```<input></input> ``` per la query.
 
 # Esempio:
 [Guarda un esempio dello script in funzione qui!](https://alessandrofrenna.github.io/searchScript/example/index.html)
