@@ -6,8 +6,8 @@ type text.
 ## Uso:
 
 ```html
-<!-- Aggiungi questo alla fine del documento prima del tag </body> -->
-<script src="js/searchScript.js"> </script>
+<!-- Aggiungi questo alla fine del tag </head> -->
+<script src="PATH_TO/js/searchScript.js"> </script>
 ```
 
 ### Configura lo script:
@@ -22,3 +22,11 @@ Inserici questo codice all'interno di un tag ```<script></script> ``` o, all'int
       wikipedia: 'https://it.wikipedia.org/w/index.php?search=',
     })
 ```
+
+### Nota bene, l'oggetto passato come parametro può essere anche vuoto.
+
+## Ricorda di inserire un ```<form></form> ``` con all'interno un ```<select></select> ``` ed un ```<input></input> ``` 
+per la query.
+
+# Esempio:
+[Guarda un esempio dello script in funzione qui!](https://alessandrofrenna.github.io/searchScript/example/index.html)
